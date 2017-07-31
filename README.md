@@ -87,3 +87,17 @@ docker images
 docker rmi vadjee/dockerName
 docker rmi -f vadjee/dockerName
 ```
+
+Got permission denied while trying to connect to the Docker daemon socket at
+-----
+```sh
+sudo chmod 777 /var/run/docker.sock
+```
+
+Docker repositories
+-----
+```sh
+https://hub.docker.com/u/vadjee/
+```
+
+
