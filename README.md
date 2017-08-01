@@ -36,7 +36,10 @@ docker exec -it dockerName bash
 Go into container as root
 -----
 ```sh
-docker exec --user root -it dockerName bash
+docker exec -it -u root dockerName bash
+--> apt install mc 
+#docker commit firefox
+docker exec -it dockerName bash
 ```
 
 Stop/Start container
